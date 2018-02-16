@@ -41,6 +41,8 @@ priv_alice = random.randint(1,2**10)
 
 print("Shared Modulus is : ",pub_modulus)
 print("Shared base is: ",pub_base)
+
+
 #Generating shared key
 
 alice_to_bob = (pub_base**priv_alice) % pub_modulus
